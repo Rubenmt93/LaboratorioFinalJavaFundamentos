@@ -1,13 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package dominio.peliculas.exepciones;
 
-/**
- *
- * @author ruben
- */
-public class EscrituraDatosEx {
+public class EscrituraDatosEx extends AccesoDatosEx{
+    
+    public EscrituraDatosEx(String message) {
+        super(message);
+    }
     
 }
