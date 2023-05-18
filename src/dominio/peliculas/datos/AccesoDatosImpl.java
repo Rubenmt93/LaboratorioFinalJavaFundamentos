@@ -71,7 +71,7 @@ public class AccesoDatosImpl implements AccesoDatos {
             int index =1;
             while (linea != null) {
                 if(linea.contains(buscar) && buscar != null){
-                    resultado ="Pelicula " +linea  + " encontrada en el indice " +linea;
+                    resultado = "Pelicula " +linea  + " encontrada en el indice " + index;
                     break;
                 }
                 linea = entrada.readLine();
