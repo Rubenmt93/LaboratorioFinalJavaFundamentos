@@ -7,7 +7,7 @@ public class MyTests {
 
     public static void main(String[] args) {
 //        testPelicula();
-   //     testAccesoDatos();
+     testAccesoDatos();
     }
 
     public static void testPelicula() {
