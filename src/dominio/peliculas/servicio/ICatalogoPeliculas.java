@@ -6,6 +6,6 @@ public interface ICatalogoPeliculas {
     String NOMBRE_RECURSO = "C:\\Users\\ruben\\Desktop\\prueba.txt";
     void agregarPelicula(String nombrePelicula);
     void listarPeliculas();
-    void buscarPeliculas();
+    void buscarPeliculas(String buscar);
     void iniciarCatalogoPeliculas();
 }
